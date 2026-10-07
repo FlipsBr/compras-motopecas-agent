@@ -1,0 +1,14 @@
+# Ambiente virtual e cache do Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Arquivos de sistema e variaveis
+.DS_Store
+Thumbs.db
+.env
+
+# Ignora os CSVs gerados, mas mantém a pasta
+pedidos_gerados/*.csv
+!pedidos_gerados/.gitkeep
