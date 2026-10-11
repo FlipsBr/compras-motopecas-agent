@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "motopecas-mcp-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder}/mcp_server.py"]
+    }
+  }
+}
